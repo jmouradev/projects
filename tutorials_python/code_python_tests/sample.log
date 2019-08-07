@@ -1,0 +1,10 @@
+2019-06-08 14:41:30,393 - ERROR - Tried to divide by zero.
+Traceback (most recent call last):
+  File "/Users/joaomartins/Desktop/code_python_tests/logging_2/log_sample.py", line 57, in divide
+    result = x / y
+ZeroDivisionError: division by zero
+2019-06-08 21:01:58,551 - ERROR - Tried to divide by zero.
+Traceback (most recent call last):
+  File "/Users/joaomartins/Desktop/code_python_tests/logging_2/log_sample.py", line 57, in divide
+    result = x / y
+ZeroDivisionError: division by zero

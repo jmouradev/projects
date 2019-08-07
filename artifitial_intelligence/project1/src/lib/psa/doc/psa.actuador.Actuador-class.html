@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>psa.actuador.Actuador</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="psa-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            >psa5</th>
+          </tr></table></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        <a href="psa-module.html">Package&nbsp;psa</a> ::
+        <a href="psa.actuador-module.html" onclick="show_private();">Module&nbsp;actuador</a> ::
+        Class&nbsp;Actuador
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="psa.actuador.Actuador-class.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- ==================== CLASS DESCRIPTION ==================== -->
+<h1 class="epydoc">Class Actuador</h1><p class="nomargin-top"></p>
+<center>
+<center>  <map id="uml_class_diagram_for_psa_actu" name="uml_class_diagram_for_psa_actu">
+<area shape="rect" id="node1_11" href="psa.actuador.Actuador-class.html#__init__" title="Iniciar actuador" alt="" coords="17,39,313,57"/>
+<area shape="rect" id="node1_12" href="psa.actuador.Actuador-class.html#avancar" title="Avan&#231;ar agente um passo de transla&#231;&#227;o" alt="" coords="17,57,313,76"/>
+<area shape="rect" id="node1_13" href="psa.actuador.Actuador-class.html#rodar" title="Rodar agente num &#226;ngulo de rota&#231;&#227;o relativo" alt="" coords="17,76,313,95"/>
+<area shape="rect" id="node1_14" href="psa.actuador.Actuador-class.html#orientar" title="Orientar agente numa direc&#231;&#227;o absoluta" alt="" coords="17,95,313,113"/>
+<area shape="rect" id="node1_15" href="psa.actuador.Actuador-class.html#pegar" title="Avan&#231;ar e pegar alvo" alt="" coords="17,113,313,132"/>
+<area shape="rect" id="node1_16" href="psa.actuador.Actuador-class.html#largar" title="Largar carga" alt="" coords="17,132,313,151"/>
+<area shape="rect" id="node1_17" href="psa.actuador.Actuador-class.html#mover" title="Mover numa direc&#231;&#227;o absoluta, pegando alvo se existir" alt="" coords="17,151,313,169"/>
+<area shape="rect" id="node1_18" href="psa.actuador.Actuador-class.html#actuar" title="Executar ac&#231;&#227;o geral" alt="" coords="17,169,313,188"/>
+<area shape="rect" id="node1_19" href="psa.actuador.Actuador-class.html#dirmov" title="Direc&#231;&#245;es poss&#237;veis de movimento [radianos]" alt="" coords="17,188,313,207"/>
+<area shape="rect" id="node1_20" href="psa.actuador.Actuador-class.html#numac" title="N&#250;mero de ac&#231;&#245;es executadas" alt="" coords="17,207,313,225"/>
+<area shape="rect" id="node1_21" href="psa.actuador.Actuador-class.html#dist" title="dist&#226;ncia percorrida" alt="" coords="17,225,313,244"/>
+<area shape="rect" id="node1" href="psa.actuador.Actuador-class.html" title="Actuador para ac&#231;&#227;o no ambiente" alt="" coords="5,6,325,250"/>
+<area shape="rect" id="node2" href="psa.actuador.ActuadorCont-class.html" title="Actuador cont&#237;nuo" alt="" coords="107,270,223,309"/>
+</map>
+  <img src="uml_class_diagram_for_psa_actu.gif" alt='' usemap="#uml_class_diagram_for_psa_actu" ismap="ismap" class="graph-without-title" />
+</center>
+</center>
+<hr />
+<p>Actuador para ac&#231;&#227;o no ambiente</p>
+
+<!-- ==================== INSTANCE METHODS ==================== -->
+<a name="section-InstanceMethods"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td align="left" colspan="2" class="table-header">
+    <span class="table-header">Instance Methods</span></td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="psa.actuador.Actuador-class.html#__init__" class="summary-sig-name">__init__</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">amb</span>)</span><br />
+      Iniciar actuador</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="avancar"></a><span class="summary-sig-name">avancar</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">dpasso</span>=<span class="summary-sig-default">1</span>,
+        <span class="summary-sig-arg">cont</span>=<span class="summary-sig-default">False</span>)</span><br />
+      Avan&#231;ar agente um passo de transla&#231;&#227;o</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="psa.actuador.Actuador-class.html#rodar" class="summary-sig-name">rodar</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">ang</span>)</span><br />
+      Rodar agente num &#226;ngulo de rota&#231;&#227;o relativo</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="psa.actuador.Actuador-class.html#orientar" class="summary-sig-name">orientar</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">ang</span>)</span><br />
+      Orientar agente numa direc&#231;&#227;o absoluta</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="pegar"></a><span class="summary-sig-name">pegar</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">dpasso</span>=<span class="summary-sig-default">1</span>,
+        <span class="summary-sig-arg">cont</span>=<span class="summary-sig-default">False</span>)</span><br />
+      Avan&#231;ar e pegar alvo</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="largar"></a><span class="summary-sig-name">largar</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Largar carga</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="mover"></a><span class="summary-sig-name">mover</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">ang</span>,
+        <span class="summary-sig-arg">pegar</span>=<span class="summary-sig-default">True</span>)</span><br />
+      Mover numa direc&#231;&#227;o absoluta, pegando alvo se existir</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="psa.actuador.Actuador-class.html#actuar" class="summary-sig-name">actuar</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">accao</span>,
+        <span class="summary-sig-arg">avmod</span>=<span class="summary-sig-default">False</span>,
+        <span class="summary-sig-arg">ang_abs</span>=<span class="summary-sig-default">False</span>)</span><br />
+      Executar ac&#231;&#227;o geral</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="dirmov"></a><span class="summary-sig-name">dirmov</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Direc&#231;&#245;es poss&#237;veis de movimento [radianos]</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="numac"></a><span class="summary-sig-name">numac</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      N&#250;mero de ac&#231;&#245;es executadas</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="dist"></a><span class="summary-sig-name">dist</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      dist&#226;ncia percorrida</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+</table>
+<!-- ==================== METHOD DETAILS ==================== -->
+<a name="section-MethodDetails"></a>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td align="left" colspan="2" class="table-header">
+    <span class="table-header">Method Details</span></td>
+</tr>
+</table>
+<a name="__init__"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">__init__</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">amb</span>)</span>
+    <br /><em class="fname">(Constructor)</em>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Iniciar actuador</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>amb</code></strong> - ambiente</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="rodar"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">rodar</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">ang</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Rodar agente num &#226;ngulo de rota&#231;&#227;o relativo</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ang</code></strong> - &#226;ngulo relativo no intervalo [-pi/4, pi/4]</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="orientar"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">orientar</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">ang</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Orientar agente numa direc&#231;&#227;o absoluta</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>ang</code></strong> - direc&#231;&#227;o absoluta [radianos]</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="actuar"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">actuar</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">accao</span>,
+        <span class="sig-arg">avmod</span>=<span class="sig-default">False</span>,
+        <span class="sig-arg">ang_abs</span>=<span class="sig-default">False</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Executar ac&#231;&#227;o geral</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>accao</code></strong> - ac&#231;&#227;o a executar</li>
+        <li><strong class="pname"><code>avmod</code></strong> - avan&#231;o proporcional ao m&#243;dulo do vector de ac&#231;&#227;o</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="psa-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            >psa5</th>
+          </tr></table></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1 on Wed Mar 19 09:20:29 2014
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>
