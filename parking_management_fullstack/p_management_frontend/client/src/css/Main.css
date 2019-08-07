@@ -1,0 +1,108 @@
+.App-main {
+    font-family: Geneva, Arial, Helvetica, sans-serif, cursive;
+    margin: 0px auto;
+    max-width: 100%;
+    border: solid;
+    border-color: #ffffff;
+    background-color: white;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    color: white;
+    padding-bottom: 60px;
+}
+
+.App-intro {
+    font-size: large;
+    vertical-align: middle;
+    text-align: center;
+    color: black;
+}
+
+.App-intro {
+    font-size: large;
+    vertical-align: middle;
+    text-align: center;
+    color: black;
+}
+
+.App-menu {
+    height: 100%;
+    width: 100%;
+    display: block;
+    vertical-align: middle;
+    text-align: right;
+    float: right;
+    color: black;
+}
+
+.App-menu nav {
+    height: 100%;
+    width: 100%;
+    display: block;
+    vertical-align: middle;
+    text-align: right;
+    float: right;
+}
+
+.App-menu nav ul {
+    position: relative;
+    display: inline-block;
+}
+
+.App-menu nav ul ul {
+    display: none;
+}
+
+.App-menu nav ul li {
+    display: block;
+    float: left;
+    padding: 3px 15px;
+}
+
+.App-menu nav ul li a {
+    font-family: 'Open Sans', sans-serif;
+    transition: all 0.25s ease;
+    color: black;
+    text-shadow: 2px 2px 10px black, 0 0 10px darkgray, 0 0 5px gray;
+}
+
+.App-menu nav ul li a:hover {
+    color: #e56038;
+}
+
+.App-menu nav ul li:hover > ul {
+    display: block;
+}
+
+.App-menu nav ul li:hover > ul {
+    margin: 0px;
+    padding: 0px;
+}
+.App-menu nav ul li:hover > ul li {
+    float: none;
+    display: block;
+}
+.App-menu nav ul li:hover > ul li a {
+    color: #333333;
+    min-width: 500px;
+}
+.App-menu nav ul li:hover > ul li a:hover {
+    color: #e56038;
+}
+
+.App-menu nav ul li {
+    position: relative;
+}
+.App-menu nav ul li ul {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 300px;
+    text-align: left;
+}
+
+.Msg-error {
+    color: black;
+    text-align: center;
+}

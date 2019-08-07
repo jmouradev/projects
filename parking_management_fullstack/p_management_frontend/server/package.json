@@ -1,0 +1,30 @@
+{
+  "name": "gestao-estacionamento-server",
+  "version": "1.0.0",
+  "private": true,
+  "author": "João Martins",
+  "license": "none",
+  "scripts": {
+    "start": " npm run dev-server ",
+    "dev-server": "json-server -p 5002 ./data/db.json",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "ejs": "^2.5.9",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "http-errors": "~1.6.2",
+    "jshint": "^2.9.5",
+    "json-server": "^0.12.2",
+    "morgan": "~1.9.0",
+    "multer": "^1.3.1",
+    "mysql": "^2.15.0",
+    "schema-object": "^4.0.11"
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "save_video": false,
+    "frame_speed": 20,
+    "status_waiting_time": 60,
+    "default_slots_file": true,
+    "parking": true,
+    "run_directly": true,
+    "text_overlay": false,
+    "wait_for_parking": 3,
+    "p_detection": true,
+    "laplacian_threshold": 0.5,
+    "status_time_confirmation": 3,
+    "start_frame": 0,
+    "read_waiting_time": 60,
+    "real_time_camera": true,
+    "delta_waiting_time": 60
+}

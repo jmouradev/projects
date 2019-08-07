@@ -1,0 +1,33 @@
+.App {
+    text-align: center;
+    width: 99%;
+    height: auto;
+    padding: 1px;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+}
+
+.App-header {
+    background-color: #222;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    color: white;
+}
+
+.App-title {
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+}
+
+.App-home-title {
+    display: inline-block;
+    font-size: 1.1em;
+    color: black;
+    vertical-align: middle;
+    text-align: center;
+}

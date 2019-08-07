@@ -1,0 +1,9 @@
+{
+	"MYSQL" : {
+		"host"     : "46.189.192.58",
+		"user"     : "projeto_42_user",
+		"password" : "S&gr&dO123#@",
+		"dbname"   : "projeto_42_db"
+	}
+}
+

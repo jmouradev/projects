@@ -1,0 +1,11 @@
+{
+    "SENSOR":
+    {
+        "idZona": 4,
+        "idCamara": 1,
+        "send_image": false,
+        "idVaga": 1,
+        "sleepTime": 15,
+        "tpSensor": 1
+    }
+}

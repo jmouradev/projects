@@ -1,0 +1,10 @@
+{
+    "MQTT":
+    {
+        "userMQTT": "Projeto42",
+        "passwdMQTT": "Projeto42",
+        "hostMQTT": "",
+        "portMQTT": "",
+        "caMQTT": "mosq-ca.crt"
+    }
+}

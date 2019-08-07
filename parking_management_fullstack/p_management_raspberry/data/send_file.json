@@ -1,0 +1,7 @@
+{
+    "id_zona": 4,
+    "send_file": false,
+    "id_camara": 1,
+    "dest_host": "",
+    "file_name": "frame_current_file.jpg"
+}
